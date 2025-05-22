@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router";
 import Home from "./src/Home";
 import Contact from "./src/Contact";
 import Dashboard from "./src/Dashboard";
@@ -46,4 +46,4 @@ function App(){
 }
 
 
-ReactDom.createRoot(document.getElementById("root")).render(<App/>)
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
