@@ -1,0 +1,19 @@
+{
+  "name": "day12",
+  "version": "1.0.0",
+  "description": "https://api.github.com/users?per_page=${count}\r https://api.github.com/users/taylorotwell\r https://api.github.com/users?since=6000&per_page=20",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  }
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+h1{
+    margin-top: 2vw;
+    /* padding: 10px; */
+}
+.link {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2rem;
+    /* padding: 10px; */
+    display: inline-block;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+button{
+    padding: 6px;
+    font-size: 1.2vw;
+    margin-right: 1vw;
+    background-color: rgb(31, 184, 255);
+    border: none;
+    border-radius: 0.5vw;
+    color: white;
+}
+img{
+    padding: 5vw 1vw 0vw 1vw;
+    height: 20vw;
+}
+h2{
+    padding: 0vw 1vw 1vw 8vw;
+    /* color: rgb(37, 25, 25); */
+    text-decoration: underline;
+}
+button:hover, .link:hover{
+    transform: scale(1.1);
+    transition: ease-out;
+    
+}
