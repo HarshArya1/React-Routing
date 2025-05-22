@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parcel build":"npx parcel build index.html"
+    "build":"npx parcel build index.html"
   },
   "dependencies": {
     "react": "^19.1.0",
